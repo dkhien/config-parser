@@ -1,11 +1,33 @@
-CMakeLists.txt.user
+# CMake build directory
+build/
+
+# CMake generated files
+CMakeFiles/
 CMakeCache.txt
-CMakeFiles
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
 CMakeScripts
 Testing
-Makefile
-cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+
+# Compiled object files
+*.o
+*.obj
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.swp
